@@ -43,6 +43,7 @@
     display: flex;
     align-items: center;
     height: 60px;
+    transition: 0.5s color;
 
     &:link,
     &:visited {
