@@ -6,11 +6,8 @@
   width: $productWidth;
   height: $productHeight;
   padding: 15px 14px;
-  font-size: 11px;
-  line-height: 13px;
   border: 1px solid $productBorderColor;
   border-radius: $productBorderRadius;
-  box-sizing: border-box;
 
   &__container {
     margin-bottom: 50px;
@@ -37,6 +34,12 @@
     line-height: 15px;
   }
 
+  &__code,
+  &__reviews {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
   &__rating {
     display: flex;
     justify-content: space-between;
@@ -53,6 +56,8 @@
   &__price-name {
     align-self: flex-end;
     margin-bottom: 1px;
+    font-size: 11px;
+    line-height: 13px;
   }
 
   &__price-number {
